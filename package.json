@@ -1,9 +1,9 @@
 {
     "private": true,
     "type": "module",
-    "scripts": {
+   "scripts": {
         "dev": "vite",
-        "build": "npx vite build"
+        "build": "vite build --emptyOutDir"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
